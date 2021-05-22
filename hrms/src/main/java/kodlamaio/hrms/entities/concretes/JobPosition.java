@@ -24,7 +24,7 @@ public class JobPosition {
 	@Column(name="id")
 	private int id;
 	
-	@Column(name = "position_a") //hatali dönülecek geri sonra
+	@Column(name = "position") //hatali dönülecek geri sonra
 	private String position;
 	
 	@Column(name = "position_detail")

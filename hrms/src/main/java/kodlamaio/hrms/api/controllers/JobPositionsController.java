@@ -24,7 +24,7 @@ public class JobPositionsController {
 	}
 
 	
-	@GetMapping("/getall")
+	@GetMapping("/getall") // HttpGet Request
 	public List<JobPosition> getAll(){
 		return jobPositionService.getAll();
 	}
