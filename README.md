@@ -56,18 +56,16 @@ These positions cannot be repeated. The user is warned.
 
 ## DATABASE (DB)
 
+### DB - SCHEMA
+
 ![HRMS SCHEMA in PostgreSql](https://user-images.githubusercontent.com/81612480/119210451-69f90200-baac-11eb-895a-691616ce982e.png)
 
 ![dbSchema](https://user-images.githubusercontent.com/81612480/119210454-6d8c8900-baac-11eb-932a-a13425e22f60.png)
 
 
-### DB - SCHEMA
-
- 
-
 ### DB - SCRIPT CODE
 
-
+### <a href="DbSchema_Script.sql">Click</a> for script codes.
 
 
 
