@@ -9,25 +9,33 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import lombok.AllArgsConstructor; 
-import lombok.Data; 
-import lombok.NoArgsConstructor; 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Data //lombok --> Getter & Setter
-@Entity //Which layer? Annotation
-@Table(name="job_positions") //table
-@NoArgsConstructor // no parameter constructor
-@AllArgsConstructor // constructor with all fields
-
-public class JobPosition {
+@Data
+@Entity
+@Table(name="employers")
+@AllArgsConstructor
+@NoArgsConstructor
+public class Employer {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id")
+	@Column(name = "id")
 	private int id;
 	
-	@Column(name = "position")
-	private String position;
+	@Column(name = "company_name")
+	private String companyName;
+	
+	@Column(name = "web_address")
+	private String webAddress;
+	
+	@Column(name = "phone_number")
+	private String phoneNumber;
+	
+	@Column(name = "is_activate")
+	private boolean isActivate;
 	
 	@Column(name = "created_date")
 	private Date createdDate;
