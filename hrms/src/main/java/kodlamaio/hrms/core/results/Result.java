@@ -1,4 +1,4 @@
-package kodlamaio.hrms.core.utilities.results;
+package kodlamaio.hrms.core.results;
 
 public class Result {
 
@@ -6,18 +6,18 @@ public class Result {
 	private String message;
 
 	public Result(boolean success) {
-		this.success=success;
+		this.success = success;
 	}
-	
+
 	public Result(boolean success, String message) {
 		this(success);
-		this.message =message;
+		this.message = message;
 	}
-	
+
 	public boolean isSuccess() {
 		return this.success;
 	}
-	
+
 	public String getMessage() {
 		return this.message;
 	}

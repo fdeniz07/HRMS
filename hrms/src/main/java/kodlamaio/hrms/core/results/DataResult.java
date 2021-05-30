@@ -1,11 +1,11 @@
-package kodlamaio.hrms.core.utilities.results;
+package kodlamaio.hrms.core.results;
 
 public class DataResult<T> extends Result {
 
 	private T data;
 
 	public DataResult(T data, boolean success, String message) {
-		super(success, message);
+		super(success, message); // super : Base sinifin metotlarini calistirir
 		this.data = data;
 	}
 
@@ -17,5 +17,4 @@ public class DataResult<T> extends Result {
 	public T getData() {
 		return this.data;
 	}
-	
 }
