@@ -14,7 +14,7 @@
 
 ### * SOLID architecture 
 ### * DesignPatterns
-### * NLayered Architecture
+### * N-Tier Architecture
 
 ### * Dependencies:
 - Spring Boot DevTools
